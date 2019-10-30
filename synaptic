@@ -17,3 +17,5 @@ dpkg-www
 dpkg-repack
 timeshift
 exfat-utils
+snap
+ffmpeg
