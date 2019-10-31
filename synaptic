@@ -17,5 +17,5 @@ dpkg-repack
 timeshift
 exfat-utils
 snap
-ffmpeg
+ksnapshot
 transmission
