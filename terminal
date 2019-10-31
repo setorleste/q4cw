@@ -8,3 +8,12 @@ sudo sh -c "echo 'deb https://dl.bintray.com/resin-io/debian stable etcher' >> /
 sudo apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys 379CE192D401AB61
 sudo apt-get update
 sudo apt-get install etcher-electron
+
+sudo dpkg --add-architecture i386 
+sudo apt-get update
+
+sudo apt-get install mpv:i386
+
+
+wget -qO- https://deb.opera.com/archive.key | sudo apt-key add -
+sudo add-apt-repository "deb [arch=i386] https://deb.opera.com/opera-stable/ stable non-free"
