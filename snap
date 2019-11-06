@@ -1,4 +1,3 @@
-sudo snap install wavebox
 sudo snap install chromium-ffmpeg
 sudo snap install ffmpeg
 sudo snap install photogimp
